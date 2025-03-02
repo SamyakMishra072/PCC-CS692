@@ -8,6 +8,12 @@
 #define MAX 512
 #define KEY ftok("memory", 67)
 
-typedef struct { long ttype; int tot; } total;
-typedef struct { long mtype; char data[MAX]; } message;
-typedef struct { long mtype; int num; } messageRoll;
+typedef struct { 
+  long ttype; int tot; 
+} total;
+typedef struct {  
+  long mtype; char data[MAX]; 
+} message;
+typedef struct { 
+  long mtype; int num; 
+} messageRoll;
