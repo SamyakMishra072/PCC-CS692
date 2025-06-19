@@ -27,8 +27,8 @@ A collection of C-based networking experiments for the PCC‑CS692 course under 
    ```bash
    git clone https://github.com/SamyakMishra072/PCC-CS692.git
    cd PCC-CS692
+   gcc server.c -o server
+   gcc client.c -o client
+   ./server &
+   ./client
 
-gcc server.c -o server
-gcc client.c -o client
-./server &
-./client
